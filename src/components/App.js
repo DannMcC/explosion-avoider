@@ -60,7 +60,7 @@ class App extends Component {
       </tr>
     })
     return <div className='app'>
-      <h1>Explosion Avoider!</h1>
+      <h1>No steepy on the Boom!</h1>
 
       <div className='gameboard'>
         <table>
