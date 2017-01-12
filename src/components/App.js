@@ -3,13 +3,14 @@ import Cell from './Cell'
 
 class App extends Component {
 
+// imports board from api
   constructor () {
     super()
     this.state = {
       board: []
     }
   }
-
+// when
   componentDidMount () {
     window.fetch('http://minesweeper-api.herokuapp.com/games?difficulty=1', {method: 'POST'}).then((response) => {
       return response.json()
